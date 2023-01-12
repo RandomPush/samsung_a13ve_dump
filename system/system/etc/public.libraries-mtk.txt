@@ -1,0 +1,14 @@
+libapuwareapusys.mtk.so
+libapuwareapusys_v2.mtk.so
+libapuwarexrp.mtk.so
+libapuwarexrp_v2.mtk.so
+libapuwareutils.mtk.so
+libapuwareutils_v2.mtk.so
+libapuwarehmp.mtk.so
+libmcv_runtime_usdk.mtk.so
+libneuron_graph_delegate.mtk.so
+libneuronusdk_adapter.mtk.so
+libtflite_mtk.mtk.so
+libarmnn_ndk.mtk.so
+libcmdl_ndk.mtk.so
+libnir_neon_driver_ndk.mtk.so
