@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<records>
+<boot_file>/system/bin/surfaceflinger</boot_file>
+<boot_file>/system/framework/arm/boot-framework.oat</boot_file>
+<boot_file>/system/framework/framework.jar</boot_file>
+<boot_file>/system/framework/oat/arm/services.odex</boot_file>
+<boot_file>/system/framework/services.jar</boot_file>
+<boot_file>/system/lib/libhwui.so</boot_file>
+<boot_file>/system/lib/libjpeg-alpha.so</boot_file>
+<boot_file>/system/priv-app/TouchWizHome_2017/TouchWizHome_2017.apk</boot_file>
+<boot_file>/vendor/lib/egl/libGLES_mali.so</boot_file>
+<boot_file>/vendor/lib/mt6768/libdpframework.so</boot_file>
+<boot_file>/system/lib/android.hardware.graphics.mapper@4.0.so</boot_file>
+<boot_file>/system/lib/android.hardware.configstore@1.1.so</boot_file>
+</records>

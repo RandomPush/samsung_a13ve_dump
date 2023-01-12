@@ -1,0 +1,28 @@
+on boot
+
+# for WIFI MEMDUMP
+    chown wifi wifi /sys/wifi/memdump
+    chmod 0644 /sys/wifi/memdump
+	
+# for WIFI WIFIVERSION
+    chown wifi wifi /sys/wifi/wifiver
+    chmod 0640 /sys/wifi/wifiver
+
+# for WIFI PSM
+    chown wifi wifi /sys/wifi/pm
+    chmod 0640 /sys/wifi/pm
+
+# for WIFI SOFTAP
+    chown wifi wifi /sys/wifi/softap
+    chmod 0640 /sys/wifi/softap
+
+# for WIFI MAC
+    chown wifi wifi /sys/wifi/mac_addr
+    chmod 0640 /sys/wifi/mac_addr
+
+# for WIFI Antenna Selection
+    chown wifi wifi /sys/wifi/ant
+    chmod 0640 /sys/wifi/ant
+
+on property:vold.decrypt=trigger_restart_framework
+exec - wifi wifi -- /system/vendor/bin/hw/macloader

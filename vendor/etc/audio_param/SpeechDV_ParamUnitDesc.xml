@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamUnitDesc tab_name="Voice" version="1.0">
+    <CategoryTypeList>
+      <CategoryType name="Band" wording="Bandwidth">
+          <Category name="NB" wording="Narrow Band"/>
+          <Category name="WB" wording="Wide Band"/>
+          <Category name="SWB" wording="Super Wide Band"/>
+      </CategoryType>
+      <CategoryType name="Profile" wording="Device">
+          <CategoryGroup name="Handset">
+		          <Category name="HANDSET_PATH"/>
+		          <Category name="HANDSET_EMERGENCY_PATH"/>
+		          <Category name="HANDSET_EV_PATH"/>
+		          <Category name="HANDSETHAC_PATH"/>
+		          <Category name="HANDSET_2MIC_PATH"/>
+		          <Category name="HANDSET_2MICEV_PATH"/>
+          </CategoryGroup>
+					<CategoryGroup name="Headset">
+		          <Category name="HEADSET_PATH"/>
+		          <Category name="TP5PI_PATH"/>
+		      </CategoryGroup>
+		      <CategoryGroup name="Hands-free">
+		          <Category name="SPEAKER_PHONE_PATH"/>
+		          <Category name="SPEAKER_EMERGENCY_PATH"/>
+		          <Category name="SPK_EV_PATH"/>
+		          <Category name="SPK_2MIC_PATH"/>
+		          <Category name="SPK_2MICEV_PATH"/>
+		      </CategoryGroup>
+		      <CategoryGroup name="BT Device" wording="Bluetooth">
+		          <Category name="BLUETOOTH_PATH"/>
+		          <Category name="STEREO_BLUETOOTH_PATH"/>
+		          <Category name="BT_NSEC_OFF_PATH"/>
+		          <Category name="BLUETOOTH_16_PATH"/>
+		          <Category name="BT_NSEC_OFF_16_PATH"/>
+		      </CategoryGroup>
+					<CategoryGroup name="Loopback">
+		          <Category name="LOOPBACK_HANDSET_PATH"/>
+		          <Category name="LOOPBACK_HEADSET_PATH"/>
+		          <Category name="LOOPBACK_SPEAKER_PATH"/>
+		          <Category name="LOOPBACK_NODELAY_HEADSET_MIC1"/>
+		          <Category name="LOOPBACK_NODELAY_HEADSET_MIC2"/>
+		          <Category name="LOOPBACK_NODELAY_HEADSET_MIC3"/>
+					</CategoryGroup>
+					<CategoryGroup name="Misc">
+		          <Category name="HFK_PATH"/>
+		          <Category name="CALLFWD_PATH"/>
+		          <Category name="TTY_PATH"/>
+		          <Category name="SLD_PATH"/>
+		          <Category name="SPEAKERDOCK_PATH"/>
+		          <Category name="SPEAKERDOCK_EV_PATH"/>
+		      </CategoryGroup>
+      </CategoryType>
+      <CategoryType name="Network">
+          <Category name="WCDMA"/>
+          <Category name="VoLTE"/>
+          <Category name="ViLTE"/>
+          <Category name="CDMA"/>
+          <Category name="VoWifi"/>
+          <Category name="ViWifi"/>
+          <Category name="3GVT"/>
+      </CategoryType>
+    </CategoryTypeList>
+    <ParamUnit>
+				<Param name="DV param" type="short_array"/>
+				<Param name="TX param" type="short_array"/>
+    </ParamUnit>
+</ParamUnitDesc>

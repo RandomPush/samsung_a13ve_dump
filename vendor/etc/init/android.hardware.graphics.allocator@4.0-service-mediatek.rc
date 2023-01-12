@@ -1,0 +1,11 @@
+service vendor.gralloc-4-0 /vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
+    class hal animation
+    interface android.hardware.graphics.allocator@4.0::IAllocator default
+    user system
+    group graphics drmrpc
+    capabilities SYS_NICE
+    onrestart restart surfaceflinger
+    onrestart restart sec-camera-provider-4-0
+    onrestart restart mediacodec
+    onrestart restart media.swcodec
+    onrestart restart android-hardware-media-c2-hal-1-2
